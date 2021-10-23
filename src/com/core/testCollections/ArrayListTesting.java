@@ -26,6 +26,8 @@ public class ArrayListTesting {
 		while(it.hasNext())
 			System.out.println(it.next());
 		System.out.println("\n");
+		
+		
 		  ListIterator<String> lit = list.listIterator(list.size());
 		  while(lit.hasPrevious())
 		  {
@@ -33,7 +35,12 @@ public class ArrayListTesting {
 			  System.out.println(str);
 		  }
 		 
-		
+		System.out.println("Helklo");
+		  
+		  
+		  
+		  
+		  
 		
 
 	}
